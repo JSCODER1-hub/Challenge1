@@ -98,6 +98,10 @@ header img{
     margin-right:10px;
     text-transform: capitalize;
 }
+.content .plan .link:hover a{
+text-decoration: none;
+cursor:pointer;
+}
 /* End plan */
 /* Start Clicks */
 .clicks{
@@ -112,10 +116,18 @@ header img{
     font-weight: 700;
     box-shadow: 6px 2px 29px 0 hsl(245deg 75% 52%);
 }
+.clicks .proceed:hover{
+    background-color: hsl(245, 75%, 66%);
+    cursor:pointer;
+}
 .clicks .cancel{
     text-transform: capitalize;
     color: hsl(224, 23%, 55%);
     padding:20px;
     font-weight: 700;
+}
+.clicks .cancel:hover{
+    color:black;
+    cursor:pointer;
 }
 /* End Clicks */
